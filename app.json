@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Meu Tratamento",
+    "slug": "meu-tratamento",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "meutratamento",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "br.com.meutratamento.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#F5F7FA"
+      },
+      "permissions": ["NOTIFICATIONS", "SCHEDULE_EXACT_ALARM"]
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.meutratamento.app",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icons/notification-icon.png",
+          "color": "#1E3A5F"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "SEU_PROJECT_ID_EAS_AQUI"
+      }
+    }
+  }
+}
