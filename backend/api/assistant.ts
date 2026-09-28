@@ -23,7 +23,7 @@ import { createClient } from "@supabase/supabase-js";
 const SUPABASE_URL = process.env.SUPABASE_URL as string;
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY as string;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY as string;
-const GEMINI_MODEL = "gemini-1.5-flash";
+const GEMINI_MODEL = "gemini-3.8-flash";
 
 const SYSTEM_RULES = `
 Você é o assistente do aplicativo "Meu Tratamento". Você ajuda o usuário a
